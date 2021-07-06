@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'Ghibli Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ghibli Regular'), url('Eyad Al-Samman - Ghibli.woff') format('woff');
+        }       
+    
+@font-face {
+    font-family: 'Ghibli Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ghibli Bold'), url('Eyad Al-Samman - Ghibli-Bold.woff') format('woff');
+        }
+
+h2 {
+    font-family: 'Ghibli Bold';
+    font-size: 4em;
+    color: #716944;
+    margin: 0 0 0 5vw;
+    padding: 2vw;
+}
+
+form {
+    font-family: 'Ghibli Regular';
+}
+
+#name, ::placeholder {
+    background-color: #716944;
+    border: solid 2px #716944;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Ghibli Regular';
+    font-size: 20px;
+    opacity: 85%
+}
+
+.name {
+    font-size: 20px;
+    padding: 6px;
+}
+
+#submit {
+    background-color: #716944;
+    border: solid 2px #716944;
+    border-radius: 10px;
+    font-family: 'Ghibli Regular';
+    font-size: 20px;
+    margin: 1vw;
+    color: white;
+    padding: 6px;
+}
+
+input:focus {
+    outline: none;
+    user-select: none;
+}
+
+.displayContent2 {
+    background-color: #716944;
+    font-family: 'Ghibli Regular';
+    font-size: 1.5vw;
+    display: block;
+    width: 10vw;
+    margin: 1vh;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.displayContent {
+    background-color: #716944;
+    font-family: 'Ghibli Regular';
+    font-size: 1.5vw;
+    display: block;
+    width: 30vw;
+    margin: 1vh;
+    padding: 1em;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+.section {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    #name, ::placeholder {
+        font-size: .75em;
+    }
+    
+    .name {
+        font-size: .75em;
+    }
+    
+    #submit {
+        font-size: .75em;
+    }
+
+    .displayContent2 {
+        font-size: .75em;
+    }
+    
+    .displayContent {
+        font-size: .75em;
+    }
+    
+}
